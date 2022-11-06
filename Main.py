@@ -4,7 +4,6 @@ class BinaryTreeNode:
         self.left_child = None
         self.right_child = None
 
-
 def insert(root, new_value) -> BinaryTreeNode:
     if (root == None):
         root = BinaryTreeNode(new_value)
